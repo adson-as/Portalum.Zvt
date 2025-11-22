@@ -47,7 +47,7 @@ namespace Portalum.Zvt.Helpers
                 x1 /= 10;
             }
 
-            return data.Reverse().ToArray();
+            return data.AsEnumerable().Reverse().ToArray();
         }
 
         /// <summary>
@@ -95,7 +95,7 @@ namespace Portalum.Zvt.Helpers
                 value /= 10;
             }
 
-            return data.Reverse().ToArray();
+            return data.AsEnumerable().Reverse().ToArray();
         }
 
         /// <summary>
